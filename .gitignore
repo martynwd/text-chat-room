@@ -4,5 +4,5 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
- /chat-frontend/node_modules
-
+/chat-frontend/node_modules
+/chat-backend/node_modules
