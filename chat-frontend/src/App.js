@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {Component} from "react";
+import MainPage from "./components/Login";
 
 
-function App() {
-  return (
-    <div className="App">
-      kekw
-    </div>
-  );
+class App extends Component{
+    render() {
+        return(
+            <div>
+                <MainPage />
+            </div>
+        )
+    }
+
 }
 
 export default App;
