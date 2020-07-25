@@ -1,10 +1,12 @@
 import mongoose from "mongoose";
+//import {isEmpty} from 'validator'
 
 const UserSchema = new mongoose.Schema({
         username:{
             type: String,
             required: 'Username is required',
-            unique: true
+            unique: true,
+            //validate :[,"Username can't be empty"]
         } ,
     },
     {
